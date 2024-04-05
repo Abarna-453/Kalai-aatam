@@ -1,3 +1,4 @@
+//Dance1.jsx
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import Tabs from '@mui/material/Tabs';
@@ -89,7 +90,8 @@ export const Dance1 = () => {
           </li>
         </ul>
       </nav>
-
+      
+      
       {/* Content for Dance1 */}
       <div className="column" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         {/* Image on the left side */}
