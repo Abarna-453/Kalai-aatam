@@ -3,12 +3,18 @@ import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf'; // Import necessary components
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'; // Import default styles
 
+import { Viewer } from '@react-pdf-viewer/core'; // Import necessary components
+import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout'; // Import default layout plugin
+import '@react-pdf-viewer/core/lib/styles/index.css'; // Import default styles
+import '@react-pdf-viewer/default-layout/lib/styles/index.css'; // Import default layout styles
+
 // Additional CSS styles for the PDF viewer
 import './PdfViewer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`; // Set the worker source
 
 const PdfViewer = () => {
+  const defaultLayoutPluginInstance = defaultLayoutPlugin();
   const [numPages, setNumPages] = useState(null);
 
   function onDocumentLoadSuccess({ numPages }) {
@@ -17,14 +23,10 @@ const PdfViewer = () => {
 
   return (
     <div className="pdf-viewer-container">
-      <h1>PDF Viewer</h1>
-      <div className="pdf-viewer">
-        <Document file="/pdf/pdfbhara2.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-          {Array.from(new Array(numPages), (el, index) => (
-            <Page key={`page_${index + 1}`} pageNumber={index + 1} className="react-pdf__Page" />
-          ))}
-        </Document>
-      </div>
+      <Viewer
+          fileUrl="/pdf/pdfbhara2.pdf" // Provide URL to your PDF file
+          plugins={[defaultLayoutPluginInstance]} // Add the default layout plugin as a plugin
+        />
     </div>
   );
 };
