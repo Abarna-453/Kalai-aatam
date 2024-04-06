@@ -1,21 +1,151 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./ArticleCard.css";
 
 const ArticleCard = () => {
   return (
-    <div className="card" style={{ width: '15rem', margin: '10px' }}>
-      <img
-        src="images/bh.jpeg"
-        className="card-img-top"
-        alt="..."
-        style={{ width: '100%', height: '200px', objectFit: 'fill' }}
-      />
-      <div className="card-body">
-        <h5 className="card-title">Article title</h5>
-        <p className="card-text">Some quick text on the article title to make up the bulk of the article's content.</p>
-        <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link> {/* Navigate to PDF Viewer */}
-      </div>
-    </div>
+    <Carousel slidesToShow={2}>
+      <Carousel.Item>
+        <div className="cards-wrapper">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 1</h5>
+                  <p className="card-text">Bharanatiyam Article 1</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 2</h5>
+                  <p className="card-text">Bharanatiyam Article 2</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="cards-wrapper">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 3</h5>
+                  <p className="card-text">Bharanatiyam Article 3</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 4</h5>
+                  <p className="card-text">Bharanatiyam Article 4</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="cards-wrapper">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 5</h5>
+                  <p className="card-text">Bharanatiyam Article 5</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 6</h5>
+                  <p className="card-text">Bharanatiyam Article 6</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="cards-wrapper">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 7</h5>
+                  <p className="card-text">Bharanatiyam Article 7</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 8</h5>
+                  <p className="card-text">Bharanatiyam Article 8</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="cards-wrapper">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 9</h5>
+                  <p className="card-text">Bharanatiyam Article 9</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="card">
+                <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                <div className="card-body">
+                  <h5 className="card-title">Card title 10</h5>
+                  <p className="card-text">Bharanatiyam Article 10</p>
+                  <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </Carousel.Item>
+    </Carousel>
   );
 };
 

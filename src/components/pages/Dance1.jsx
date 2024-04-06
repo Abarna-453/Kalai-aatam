@@ -113,7 +113,9 @@ export const Dance1 = () => {
             {value === 0 && (
               <div style={{ display: 'flex', flexWrap: 'wrap',  justifyContent: 'center' ,textAlign: 'left', padding: '10%' }}>
                 <ArticleCard/>
-                <ArticleCard/>
+                
+                
+
               </div>
             )}
             {value === 1 && (
