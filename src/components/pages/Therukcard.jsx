@@ -21,7 +21,7 @@ const ArticleCard = () => {
                   <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 1</h5>
-                    <p className="card-text">Bharanatiyam Article 1</p>
+                    <p className="card-text"> Article 1</p>
                     <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
@@ -31,7 +31,7 @@ const ArticleCard = () => {
                   <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 2</h5>
-                    <p className="card-text">Bharanatiyam Article 2</p>
+                    <p className="card-text">Article 2</p>
                     <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const ArticleCard = () => {
                   <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 3</h5>
-                    <p className="card-text">Bharanatiyam Article 3</p>
+                    <p className="card-text"> Article 3</p>
                     <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ const ArticleCard = () => {
                   <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 4</h5>
-                    <p className="card-text">Bharanatiyam Article 4</p>
+                    <p className="card-text"> Article 4</p>
                     <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>

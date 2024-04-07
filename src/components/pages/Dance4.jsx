@@ -9,7 +9,7 @@ import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import './Navbarpages.css'; 
 import { CheckCircle, Aperture, GitHub } from 'react-feather';
 import Footer from './Footer';
-import ArticleCard from './ArticleCard';
+import Kavadicard from './Kavadicard';
 import VideoCarousel from './VideoCarousel';
 import EventList from './EventList';
 
@@ -110,8 +110,7 @@ export const Dance4 = () => {
             {/* Content based on the selected tab */}
             {value === 0 && (
                <div style={{ display: 'flex', flexWrap: 'wrap',  justifyContent: 'center' ,textAlign: 'left', padding: '10%' }}>
-               <ArticleCard/>
-               <ArticleCard/>
+               <Kavadicard/>
              </div>
             )}
             {value === 1 && (

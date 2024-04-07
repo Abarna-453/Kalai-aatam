@@ -13,18 +13,17 @@ import './PdfViewer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`; // Set the worker source
 
-const PdfViewer = () => {
+const PdfViewer = ({ pdfUrl }) => {
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
-  const [numPages, setNumPages] = useState(null);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
 
   return (
     <div className="pdf-viewer-container">
       <Viewer
           fileUrl="/pdf/pdfbhara2.pdf" // Provide URL to your PDF file
+          plugins={[defaultLayoutPluginInstance]} // Add the default layout plugin as a plugin
+        />
+         <Viewer
+          fileUrl="/public/pdf/Basic Theory-Bharatanatyam-1.pdf" // Provide URL to your PDF file
           plugins={[defaultLayoutPluginInstance]} // Add the default layout plugin as a plugin
         />
     </div>

@@ -8,7 +8,7 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import './Navbarpages.css'; 
 import { CheckCircle, Aperture, GitHub } from 'react-feather';
-import ArticleCard from './ArticleCard';
+import Therukcard from './Therukcard';
 import EventList from './EventList';
 import VideoCarousel from './VideoCarousel';
 import Footer from './Footer';
@@ -110,8 +110,8 @@ export const Dance2 = () => {
             {/* Content based on the selected tab */}
             {value === 0 && (
                <div style={{ display: 'flex', flexWrap: 'wrap',  justifyContent: 'center' ,textAlign: 'left', padding: '10%' }}>
-               <ArticleCard/>
-               <ArticleCard/>
+               <Therukcard/>
+             
              </div>
             )}
             {value === 1 && (
