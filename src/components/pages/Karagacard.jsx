@@ -18,7 +18,7 @@ const ArticleCard = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="card" onClick={() => handleCardClick('/public/pdf/pdfbhara2.pdf')}>
-                  <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                  <img src="/public/images/karagattam.jpg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 1</h5>
                     <p className="card-text"> Article 1</p>
@@ -28,7 +28,7 @@ const ArticleCard = () => {
               </div>
               <div className="col-md-6">
                 <div className="card" onClick={() => handleCardClick('/public/pdf/Basic Theory-Bharatanatyam-1.pdf')}>
-                  <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                  <img src="/public/images/karagattam.jpg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 2</h5>
                     <p className="card-text">Article 2</p>
@@ -44,7 +44,7 @@ const ArticleCard = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="card">
-                  <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                  <img src="/public/images/karagattam.jpg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 3</h5>
                     <p className="card-text"> Article 3</p>
@@ -55,7 +55,7 @@ const ArticleCard = () => {
 
               <div className="col-md-6">
                 <div className="card">
-                  <img src="/public/images/bh.jpeg" className="card-img-top" alt="Not Found" />
+                  <img src="/public/images/karagattam.jpg" className="card-img-top" alt="Not Found" />
                   <div className="card-body">
                     <h5 className="card-title">Card title 4</h5>
                     <p className="card-text"> Article 4</p>

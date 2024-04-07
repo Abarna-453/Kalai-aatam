@@ -95,7 +95,7 @@ export const Dance2 = () => {
         {/* Image on the left side */}
         <div style={{ width: '50%', textAlign: 'center', padding: '5%' }}>
           {/* Your image component goes here */}
-          <img src="/images/bhar.png" alt="Your Image" style={{ width: '55%', height: '80%', maxWidth: '800px', maxHeight: '800px' }} />
+          <img src="/public/images/theru2.jpg" alt="Your Image" style={{ width: '55%', height: '80%', maxWidth: '800px', maxHeight: '800px' }} />
         </div>
 
         {/* Content for the tabs on the right side */}
