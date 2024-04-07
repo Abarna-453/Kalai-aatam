@@ -22,7 +22,7 @@ const ArticleCard = () => {
                   <div className="card-body">
                     <h5 className="card-title">Card title 1</h5>
                     <p className="card-text"> Article 1</p>
-                    <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const ArticleCard = () => {
                   <div className="card-body">
                     <h5 className="card-title">Card title 2</h5>
                     <p className="card-text">Article 2</p>
-                    <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const ArticleCard = () => {
                   <div className="card-body">
                     <h5 className="card-title">Card title 3</h5>
                     <p className="card-text"> Article 3</p>
-                    <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const ArticleCard = () => {
                   <div className="card-body">
                     <h5 className="card-title">Card title 4</h5>
                     <p className="card-text"> Article 4</p>
-                    <Link to="/pdf-viewer" className="btn btn-primary">Read More</Link>
+                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
                   </div>
                 </div>
               </div>

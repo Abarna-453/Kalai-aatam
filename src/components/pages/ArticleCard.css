@@ -25,5 +25,15 @@
       margin-bottom: 10px;
     }
 
-  
+    .btn-dark-grey {
+      background-color: #2f3031; /* Dark grey color */
+      border-color: #2f3031; /* Dark grey color for border */
+      color: white;
+    }
+    
+    .btn-dark-grey:hover {
+      background-color: #2f3031; /* Darker grey color on hover */
+      border-color: #2f3031; /* Darker grey color for border on hover */
+    }
+    
  

@@ -1,3 +1,4 @@
+//kavadiAttam
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import Tabs from '@mui/material/Tabs';
@@ -95,7 +96,7 @@ export const Dance4 = () => {
         {/* Image on the left side */}
         <div style={{ width: '50%', textAlign: 'center', padding: '5%' }}>
           {/* Your image component goes here */}
-          <img src="/images/kara.jpeg" alt="Your Image" style={{ width: '55%', height: '80%', maxWidth: '800px', maxHeight: '800px' }} />
+          <img src="/public/images/kavadi1.jpg" alt="Your Image" style={{ width: '55%', height: '80%', maxWidth: '800px', maxHeight: '800px' }} />
         </div>
 
         {/* Content for the tabs on the right side */}
