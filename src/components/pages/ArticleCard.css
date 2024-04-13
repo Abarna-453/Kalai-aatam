@@ -1,12 +1,11 @@
-.cards-wrapper {
 
-  }
   .card {
     border-radius: 5px;
   width:100%
   }
   .card-body {
     padding: 80px;
+    padding-top: 30px;
   } 
     .card {
       border: 1px solid #ddd;

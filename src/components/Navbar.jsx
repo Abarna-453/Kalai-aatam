@@ -34,7 +34,7 @@ export const Navbar = () => {
  
   return (
     <div>
-      <header className="top-header">
+      {/* <header className="top-header">
         <div className="social-icons">
           <Link to="/facebook" style={{ color: 'black', textDecoration: 'none' }}>
             <i className="fab fa-facebook"></i>
@@ -45,7 +45,7 @@ export const Navbar = () => {
           <Link to="/instagram" style={{ color: 'black', textDecoration: 'none' }}>
             <i className="fab fa-instagram"></i>
           </Link>
-          {/* Add more social media icons as needed */}
+
         </div>
 
         <div className="icon-container">
@@ -62,7 +62,7 @@ export const Navbar = () => {
     <span className="icon-text">GitHub</span>
   </a>
 </div>
-      </header>
+      </header> */}
 
       {/* Middle Header (Navigation) */}
       <nav className="middle-header">
@@ -100,10 +100,9 @@ export const Navbar = () => {
       {/* Carousel Section */}
       <CarouselSection />
       <div className="app-container">
-      {/* Other components or content */}
+     
       <CardContainer />
     </div>
-      {/* Animate a div with useSpring */}
       <animated.div style={props}>
         <p>This content will be animated based on menuOpen state.</p>
       </animated.div>

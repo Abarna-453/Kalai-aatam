@@ -28,35 +28,7 @@ export const Dance1 = () => {
 
   return (
     <div>
-      <header className="top-header">
-        <div className="social-icons">
-          <Link to="/facebook" style={{ color: 'black', textDecoration: 'none' }}>
-            <i className="fab fa-facebook"></i>
-          </Link>
-          <Link to="/twitter" style={{ color: 'black', textDecoration: 'none' }}>
-            <i className="fab fa-twitter"></i>
-          </Link>
-          <Link to="/instagram" style={{ color: 'black', textDecoration: 'none' }}>
-            <i className="fab fa-instagram"></i>
-          </Link>
-          {/* Add more social media icons as needed */}
-        </div>
-
-        <div className="icon-container">
-  <Link to="/CommunityForums" className="icon-wrapper" title="Check Circle" style={{ color: 'black', textDecoration: 'none' }}>
-    <CheckCircle size={20} />
-    <span className="icon-text">Check Circle</span>
-  </Link>
-  <Link to="/Navbar" className="icon-wrapper" title="Aperture" style={{ color: 'black', textDecoration: 'none' }}>
-    <Aperture size={20} />
-    <span className="icon-text">Aperture</span>
-  </Link>
-  <a href="https://github.com/AnniePriya/react-navbar-main" className="icon-wrapper" title="GitHub" style={{ color: 'black', textDecoration: 'none' }}>
-    <GitHub size={20} />
-    <span className="icon-text">GitHub</span>
-  </a>
-</div>
-      </header>
+  
 
       {/* Middle Header (Navigation) */}
       <nav className="middle-header">

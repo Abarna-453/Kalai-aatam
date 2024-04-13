@@ -1,7 +1,9 @@
-.active {
+ .active {
+    background-color: transparent;
+}
+ .middle-header .active {
     background-color: #6bd362;
 }
-
 .top-header {
     position: relative;
     background-color: #bbb6b6;
