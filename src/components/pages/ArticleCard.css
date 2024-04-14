@@ -6,6 +6,7 @@
   .card-body {
     padding: 80px;
     padding-top: 30px;
+    padding-left: 10px;
   } 
     .card {
       border: 1px solid #ddd;
@@ -22,6 +23,9 @@
     .card-title {
       font-size: 1.25rem;
       margin-bottom: 10px;
+  
+  
+ 
     }
 
     .btn-dark-grey {

@@ -15,17 +15,14 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const PdfViewer = ({ pdfUrl }) => {
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
-
+console.log('pdfUrl:', pdfUrl);
   return (
     <div className="pdf-viewer-container">
       <Viewer
-          fileUrl="/pdf/pdfbhara2.pdf" // Provide URL to your PDF file
+          fileUrl="/pdf/Basic Theory-Bharatanatyam-1.pdf" // Provide URL to your PDF file
           plugins={[defaultLayoutPluginInstance]} // Add the default layout plugin as a plugin
         />
-         <Viewer
-          fileUrl="/public/pdf/Basic Theory-Bharatanatyam-1.pdf" // Provide URL to your PDF file
-          plugins={[defaultLayoutPluginInstance]} // Add the default layout plugin as a plugin
-        />
+         
     </div>
   );
 };

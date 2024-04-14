@@ -80,19 +80,19 @@ export const Navbar = () => {
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <NavLink to="/Dance1">Dance1</NavLink>
+            <NavLink to="/Dance1">Bharathanatyam</NavLink>
           </li>
           <li>
-            <NavLink to="/Dance2">Dance2</NavLink>
+            <NavLink to="/Dance2">Therukoothu</NavLink>
           </li>
           <li>
-            <NavLink to="/Dance3">Dance3</NavLink>
+            <NavLink to="/Dance3">Karakattam</NavLink>
           </li>
           <li>
-            <NavLink to="/Dance4">Dance4</NavLink>
+            <NavLink to="/Dance4">Oyilattam</NavLink>
           </li>
           <li>
-            <NavLink to="/CommunityForums">CommunityForums</NavLink>
+            <NavLink to="/CommunityForums">Community Forum</NavLink>
           </li>
         </ul>
       </nav>
@@ -100,13 +100,12 @@ export const Navbar = () => {
       {/* Carousel Section */}
       <CarouselSection />
       <div className="app-container">
-     
-      <CardContainer />
-    </div>
+        <CardContainer />
+      </div>
       <animated.div style={props}>
         <p>This content will be animated based on menuOpen state.</p>
       </animated.div>
-  
+
       <Footer />
     </div>
   );

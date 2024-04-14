@@ -119,6 +119,8 @@ nav .title:hover {
 
 nav ul {
     display: flex;
+    flex:1;
+    align-items: center;
 }
 
 nav ul li {

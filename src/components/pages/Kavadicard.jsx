@@ -17,22 +17,47 @@ const ArticleCard = () => {
           <div className="cards-wrapper">
             <div className="row">
               <div className="col-md-6">
-                <div className="card" onClick={() => handleCardClick('/public/pdf/pdfbhara2.pdf')}>
-                  <img src="/public/images/kavadi2.jpg" className="card-img-top" alt="Not Found" />
+                <div
+                  className="card"
+                  onClick={() => handleCardClick("/public/pdf/pdfbhara2.pdf")}
+                >
+                  <img
+                    src="/public/images/o4.jpeg"
+                    className="card-img-top"
+                    alt="Not Found"
+                  />
                   <div className="card-body">
-                    <h5 className="card-title">Card title 1</h5>
-                    <p className="card-text"> Article 1</p>
-                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
+                    <h5 className="card-title">Oyilattam Field Study</h5>
+                    <p className="card-text">iorpress</p>
+                    <Link to="/pdf-viewerO" className="btn btn-dark-grey">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="card" onClick={() => handleCardClick('/public/pdf/Basic Theory-Bharatanatyam-1.pdf')}>
-                <img src="/public/images/kavadi2.jpg" className="card-img-top" alt="Not Found" />
+                <div
+                  className="card"
+                  onClick={() =>
+                    handleCardClick(
+                      "/public/pdf/Basic Theory-Bharatanatyam-1.pdf"
+                    )
+                  }
+                >
+                  <img
+                    src="/public/images/o1.jpeg"
+                    className="card-img-top"
+                    alt="Not Found"
+                  />
                   <div className="card-body">
-                    <h5 className="card-title">Card title 2</h5>
-                    <p className="card-text">Article 2</p>
-                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
+                    <h5 className="card-title">Oyilattam</h5>
+                    <p className="card-text">Wordpress</p>
+                    <a
+                      href="https://formsofdancesintamilnadu.wordpress.com/oyilattam/"
+                      className="btn btn-dark-grey"
+                    >
+                      Read More
+                    </a>
                   </div>
                 </div>
               </div>
@@ -44,31 +69,48 @@ const ArticleCard = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="card">
-                <img src="/public/images/kavadi2.jpg" className="card-img-top" alt="Not Found" />
+                  <img
+                    src="/public/images/o2.jpeg"
+                    className="card-img-top"
+                    alt="Not Found"
+                  />
                   <div className="card-body">
-                    <h5 className="card-title">Card title 3</h5>
-                    <p className="card-text"> Article 3</p>
-                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
+                    <h5 className="card-title">About: Oyilattam</h5>
+                    <p className="card-text">dbpedia</p>
+                    <a
+                      href="https://dbpedia.org/page/Oyilattam"
+                      className="btn btn-dark-grey"
+                    >
+                      Read More
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-md-6">
                 <div className="card">
-                <img src="/public/images/kavadi2.jpg" className="card-img-top" alt="Not Found" />
+                  <img
+                    src="/public/images/o3.jpeg"
+                    className="card-img-top"
+                    alt="Not Found"
+                  />
                   <div className="card-body">
-                    <h5 className="card-title">Card title 4</h5>
-                    <p className="card-text"> Article 4</p>
-                    <Link to="/pdf-viewer" className="btn btn-dark-grey">Read More</Link>
+                    <h5 className="card-title">Largest Oyilattam dance</h5>
+                    <p className="card-text">Guinness Records</p>
+                    <a
+                      href="https://www.guinnessworldrecords.com/world-records/520678-largest-oyilattam-dance"
+                      className="btn btn-dark-grey"
+                    >
+                      Read More
+                    </a>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </Carousel.Item>
       </Carousel>
-      
+
       {/* Render PdfViewer component with selected PDF URL */}
       {selectedPdf && <PdfViewer pdfUrl={selectedPdf} />}
     </div>
