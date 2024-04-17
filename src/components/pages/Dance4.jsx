@@ -11,7 +11,7 @@ import './Navbarpages.css';
 import { CheckCircle, Aperture, GitHub } from 'react-feather';
 import Footer from './Footer';
 import Kavadicard from './Kavadicard';
-import VideoCarousel from './VideoCarousel';
+import Oyilvideo from './Oyilvideo';
 import EventList from './EventList';
 
 export const Dance4 = () => {
@@ -151,7 +151,7 @@ export const Dance4 = () => {
             )}
             {value === 1 && (
               <div style={{ textAlign: "left", padding: "10%" }}>
-                <VideoCarousel />
+                <Oyilvideo />
               </div>
             )}
             {value === 2 && (

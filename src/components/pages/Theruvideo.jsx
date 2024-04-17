@@ -7,7 +7,7 @@ const VideoCarousel = () => {
       <Carousel.Item>
         <iframe
           title="Video 1"
-          src="https://www.youtube.com/embed/JWhA3ldZcyY"
+          src="https://www.youtube.com/embed/_23cuUp_viY"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -17,7 +17,7 @@ const VideoCarousel = () => {
       <Carousel.Item>
         <iframe
           title="Video 2"
-          src="https://www.youtube.com/embed/KCLQ_NR3RmI"
+          src="https://www.youtube.com/embed/Kc9pKi13EX4"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -27,27 +27,7 @@ const VideoCarousel = () => {
       <Carousel.Item>
         <iframe
           title="Video 3"
-          src="https://www.youtube.com/embed/Ft7MjyglZT0"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          style={{ backgroundColor: 'white', width: '100%', height: '310px' }}
-        ></iframe>
-      </Carousel.Item>
-      <Carousel.Item>
-        <iframe
-          title="Video 4"
-          src="https://www.youtube.com/embed/ErtbifqxJwA"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          style={{ backgroundColor: 'white', width: '100%', height: '310px' }}
-        ></iframe>
-      </Carousel.Item>
-      <Carousel.Item>
-        <iframe
-          title="Video 5"
-          src="https://www.youtube.com/embed/livZO3BYe5U"
+          src="https://www.youtube.com/embed/8vEiZmTBouo"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
