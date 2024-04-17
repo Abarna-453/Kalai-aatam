@@ -1,5 +1,5 @@
 // App.jsx
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Dance1, Dance2, Dance3, Dance4, CommunityForums } from "./components/pages";
 import PdfViewer from './PdfViewer'; // Import PdfViewer component
