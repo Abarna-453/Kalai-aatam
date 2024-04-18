@@ -44,9 +44,7 @@ export const Dance1 = () => {
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <NavLink to="/Dance1">
-           Bharathanatyam
-            </NavLink>
+            <NavLink to="/Dance1">Bharathanatyam</NavLink>
           </li>
           <li>
             <NavLink to="/Dance2">Therukoothu</NavLink>
@@ -157,10 +155,22 @@ export const Dance1 = () => {
               </div>
             )}
             {value === 2 && (
-              <div style={{ textAlign: "center", padding: "10%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "10%",
+                  maxHeight: "400px",
+                  overflow: "auto",
+                  paddingTop: "3%",
+                }}
+              >
                 <div
                   className="row py-2"
-                  style={{ backgroundColor: "black", color: "white" }}
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
                 >
                   <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
                     <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
@@ -198,8 +208,8 @@ export const Dance1 = () => {
                               style={{ textDecoration: "none" }}
                               href="#"
                             >
-                              Tamil DanceForms Day organized by TN Government to
-                              be performed on April 29 in Chennai.
+                              Bharatanatyam exponent’s passion to nurture next
+                              generation dancers
                             </a>
                           </div>
                         </div>
@@ -207,7 +217,196 @@ export const Dance1 = () => {
                       <div className="row">
                         <div className="col-12 d-flex justify-content-end">
                           <a
-                            href="#"
+                            href="https://tinyurl.com/mf2a5wnp"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Refugee camp to dancing beyond borders
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://timesofindia.indiatimes.com/city/chennai/refugee-camp-to-dancing-beyond-borders/articleshow/109134729.cms"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Bharatanatyam gurus grace the stage
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://timesofindia.indiatimes.com/entertainment/events/pune/bharatanatyam-gurus-grace-the-stage/articleshow/99868400.cms"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Bharatanatyam moves tell Ramayana tales
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://timesofindia.indiatimes.com/city/lucknow/bharatanatyam-moves-tell-ramayana-tales/articleshow/103151187.cms"
                             className="btn btn-primary"
                             style={{ fontSize: "0.8rem", marginTop: "10px" }}
                           >

@@ -154,10 +154,22 @@ export const Dance3 = () => {
               </div>
             )}
             {value === 2 && (
-              <div style={{ textAlign: "center", padding: "10%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "10%",
+                  maxHeight: "400px",
+                  overflow: "auto",
+                  paddingTop: "3%",
+                }}
+              >
                 <div
                   className="row py-2"
-                  style={{ backgroundColor: "black", color: "white" }}
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
                 >
                   <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
                     <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
@@ -195,8 +207,7 @@ export const Dance3 = () => {
                               style={{ textDecoration: "none" }}
                               href="#"
                             >
-                              Tamil DanceForms Day organized by TN Government to
-                              be performed on April 29 in Chennai.
+                              Keeping Karakattam in tune with the times
                             </a>
                           </div>
                         </div>
@@ -204,7 +215,201 @@ export const Dance3 = () => {
                       <div className="row">
                         <div className="col-12 d-flex justify-content-end">
                           <a
-                            href="#"
+                            href="https://www.newindianexpress.com/good-news/2024/Jan/21/keeping-karakattam-in-tune-with-the-times"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Karakattam: An Ancient Folk Dance of Tamil Nadu
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://cultureandheritage.org/2023/05/karakattam-an-ancient-folk-dance-of-tamil-nadu-performed-in-praise-of-the-rain-goddess-mariamman.html"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              In Kerala, practitioners of Karakattam dance form
+                              strive for recognition
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://indianexpress.com/article/india/kerala-karakattam-folk-dance-tradition-7786045/"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              The art-form of Karakattam and the predicament of
+                              its artists
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://indianexpress.com/article/lifestyle/art-and-culture/the-art-form-of-karakattam-and-the-predicament-of-its-artists-7786006/"
                             className="btn btn-primary"
                             style={{ fontSize: "0.8rem", marginTop: "10px" }}
                           >

@@ -1,18 +1,18 @@
 //therukoothu
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import DescriptionIcon from '@mui/icons-material/Description';
-import EventIcon from '@mui/icons-material/Event';
-import LiveTvIcon from '@mui/icons-material/LiveTv';
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import './Navbarpages.css'; 
-import { CheckCircle, Aperture, GitHub } from 'react-feather';
-import Therukcard from './Therukcard';
-import EventList from './EventList';
-import Theruvideo from './Theruvideo';
-import Footer from './Footer';
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import DescriptionIcon from "@mui/icons-material/Description";
+import EventIcon from "@mui/icons-material/Event";
+import LiveTvIcon from "@mui/icons-material/LiveTv";
+import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
+import "./Navbarpages.css";
+import { CheckCircle, Aperture, GitHub } from "react-feather";
+import Therukcard from "./Therukcard";
+import EventList from "./EventList";
+import Theruvideo from "./Theruvideo";
+import Footer from "./Footer";
 
 export const Dance2 = () => {
   const [value, setValue] = useState(0);
@@ -155,10 +155,22 @@ export const Dance2 = () => {
               </div>
             )}
             {value === 2 && (
-              <div style={{ textAlign: "center", padding: "10%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "10%",
+                  maxHeight: "400px",
+                  overflow: "auto",
+                  paddingTop: "3%",
+                }}
+              >
                 <div
                   className="row py-2"
-                  style={{ backgroundColor: "black", color: "white" }}
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
                 >
                   <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
                     <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
@@ -196,8 +208,8 @@ export const Dance2 = () => {
                               style={{ textDecoration: "none" }}
                               href="#"
                             >
-                              Tamil DanceForms Day organized by TN Government to
-                              be performed on April 29 in Chennai.
+                              Therukoothu artiste PK Sambandan finds new stories
+                              to tell through his art
                             </a>
                           </div>
                         </div>
@@ -205,7 +217,197 @@ export const Dance2 = () => {
                       <div className="row">
                         <div className="col-12 d-flex justify-content-end">
                           <a
-                            href="#"
+                            href="https://www.thehindu.com/entertainment/art/therukoothu-artiste-pk-sambandan-finds-new-stories-to-tell-through-his-art/article66477277.ece"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              A fashionable tribute to the Therukoothu
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://www.newindianexpress.com/cities/chennai/2023/Oct/14/a-fashionable-tribute-to-the-therukoothu-2623635.html"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Therukoothu: Tamil Nadu's street theatre fading
+                              into oblivion
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://30stades.com/2022/03/27/therukoothu-tamil-nadu-street-folk-theatre-fading-into-oblivion-rural-performing-art/"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              A play on the current state of Therukoothu
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://timesofindia.indiatimes.com/city/coimbatore/a-play-on-the-current-state-of-therukoothu/articleshow/63969533.cms"
                             className="btn btn-primary"
                             style={{ fontSize: "0.8rem", marginTop: "10px" }}
                           >

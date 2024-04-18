@@ -155,7 +155,208 @@ export const Dance4 = () => {
               </div>
             )}
             {value === 2 && (
-              <div style={{ textAlign: "center", padding: "10%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "10%",
+                  maxHeight: "400px",
+                  overflow: "auto",
+                  paddingTop: "3%",
+                }}
+              >
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Folk singer Velmurugan hopes to revive ‘oyilattam’
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://www.thehindu.com/entertainment/music/folk-singer-velmurugans-efforts-to-revive-oyilattam/article25565021.ece"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              From Tradition To Grace: Dance Forms Of Tamil Nadu
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://www.outlooktraveller.com/destinations/india/from-tradition-to-grace-dance-forms-of-tamil-nadu"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="row py-2"
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <div className="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div className="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        className="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span className="d-none d-md-inline-block">
+                        News Feed
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div className="breaking-box position-relative py-1">
+                      {" "}
+                      {/* Adjusted padding here */}
+                      <div
+                        className="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div className="row">
+                          <div
+                            className="col-12 aribudin"
+                            style={{ textAlign: "left" }}
+                          >
+                            <a
+                              className="h6 fw-normal"
+                              style={{ textDecoration: "none" }}
+                              href="#"
+                            >
+                              Chennai Sangamam to return in different avatar
+                              across cities
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 d-flex justify-content-end">
+                          <a
+                            href="https://timesofindia.indiatimes.com/city/chennai/chennai-sangamam-to-return-in-different-avatar-across-cities/articleshow/88266078.cms"
+                            className="btn btn-primary"
+                            style={{ fontSize: "0.8rem", marginTop: "10px" }}
+                          >
+                            Know More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div
                   className="row py-2"
                   style={{ backgroundColor: "black", color: "white" }}
@@ -196,8 +397,8 @@ export const Dance4 = () => {
                               style={{ textDecoration: "none" }}
                               href="#"
                             >
-                              Tamil DanceForms Day organized by TN Government to
-                              be performed on April 29 in Chennai.
+                              A New Historical Nobel World Record Set As 1600
+                              Oyilatta Artists Perform Non-Stop For 4 Hours
                             </a>
                           </div>
                         </div>
@@ -205,7 +406,7 @@ export const Dance4 = () => {
                       <div className="row">
                         <div className="col-12 d-flex justify-content-end">
                           <a
-                            href="#"
+                            href="https://www.aninews.in/news/business/business/a-new-historical-nobel-world-record-set-as-1600-oyilatta-artists-perform-non-stop-for-4-hours20231005154509/"
                             className="btn btn-primary"
                             style={{ fontSize: "0.8rem", marginTop: "10px" }}
                           >
