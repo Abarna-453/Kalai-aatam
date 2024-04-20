@@ -31,17 +31,12 @@ export const Dance1 = () => {
       {/* Middle Header (Navigation) */}
       <nav className="middle-header">
         <Link to="/" className="title">
-          <img src="/src/logo2.webp" alt="KalaiAttam Logo" className="logo" />
+          <img src="/src/logo.png" alt="KalaiAttam Logo" className="logo" />
           <div className="text-container">
             <span className="line1">KalaiAttam</span>
             <span className="line2">நடனம் உங்கள் கலையில், உங்கள் கையில்!</span>
           </div>
         </Link>
-        <div className="menu" onClick={handleMenuClick}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
             <NavLink to="/Dance1">Bharathanatyam</NavLink>
@@ -74,7 +69,7 @@ export const Dance1 = () => {
         <div style={{ width: "50%", textAlign: "center", padding: "5%" }}>
           {/* Your image component goes here */}
           <img
-            src="images/bhar.png"
+            src="public/videos/oyil.gif"
             alt="Your Image"
             style={{
               width: "55%",
@@ -83,6 +78,28 @@ export const Dance1 = () => {
               maxHeight: "800px",
             }}
           />
+
+          {/* <div className="video-container">
+      <video autoPlay loop muted playsInline>
+        <source src={videoSrc} type="video/mp4" />
+        Your browser does not support the video tag.
+              </video>
+            </div>
+        .video-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          overflow: hidden;
+          z-index: -1; 
+        }
+
+        video {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        } */}
         </div>
 
         {/* Content for the tabs on the right side */}

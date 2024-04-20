@@ -11,6 +11,8 @@ import "./Navbar.css";
 import CardContainer from './CardContainer';
 import Footer from "./pages/Footer";
 import { CheckCircle, Aperture, GitHub } from 'react-feather';
+import IntroImg from "../assets/3.jpg"
+
 
 
 export const Navbar = () => {
@@ -67,17 +69,12 @@ export const Navbar = () => {
       {/* Middle Header (Navigation) */}
       <nav className="middle-header">
         <Link to="/" className="title">
-          <img src="/src/logo2.webp" alt="KalaiAttam Logo" className="logo" />
+          <img src="/src/logo.png" alt="KalaiAttam Logo" className="logo" />
           <div className="text-container">
             <span className="line1">KalaiAttam</span>
             <span className="line2">நடனம் உங்கள் கலையில், உங்கள் கையில்!</span>
           </div>
         </Link>
-        <div className="menu" onClick={handleMenuClick}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
             <NavLink to="/Dance1">Bharathanatyam</NavLink>
@@ -98,14 +95,22 @@ export const Navbar = () => {
       </nav>
 
       {/* Carousel Section */}
+      <div className="hero">
+      <div className="mask">
+        <img className="into-img"src={IntroImg}alt="IntroImg"/>
+      </div>
+      <div className="content">
+      <div className="carousel-section">
       <CarouselSection />
+      </div>
       <div className="app-container">
         <CardContainer />
       </div>
       <animated.div style={props}>
         <p>This content will be animated based on menuOpen state.</p>
       </animated.div>
-
+</div>
+</div>
       <Footer />
     </div>
   );

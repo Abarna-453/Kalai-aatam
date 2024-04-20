@@ -1,0 +1,55 @@
+.articleCard {
+  border-radius: 5px;
+width:250px;
+height:400px;
+   background: #1a1919;
+    padding: 1.2rem 1rem;
+}
+
+
+.articleCardBody {
+  padding: 80px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.articleCardBorder {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+}
+
+.articleCardImgTop {
+  width: 100%;
+}
+
+.articleCardTitle {
+  color:#fff;
+    padding-top:10px;
+    padding-left: 0px;
+    font-family: "Outfit", sans-serif;
+}
+p{ color:#fff;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.articleBtnDarkGrey {
+ padding: 12px 32px;
+  font-size: 1 rem;
+  text-transform: uppercase;
+  background: rgb(248,217,15);
+  color: #222;
+  border: 1 px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 17.5px;
+
+}
+
+
+.articleBtnDarkGrey:hover {
+ background: rgba(255,255,255,0.2);
+  color:#fff;
+  transition: 0.3s;
+}

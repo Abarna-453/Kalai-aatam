@@ -9,7 +9,7 @@ import LiveTvIcon from "@mui/icons-material/LiveTv";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import "./Navbarpages.css";
 import { CheckCircle, Aperture, GitHub } from "react-feather";
-import Therukcard from "./Therukcard";
+import TherukCard from "./Therukcard";
 import EventList from "./EventList";
 import Theruvideo from "./Theruvideo";
 import Footer from "./Footer";
@@ -31,17 +31,12 @@ export const Dance2 = () => {
       {/* Middle Header (Navigation) */}
       <nav className="middle-header">
         <Link to="/" className="title">
-          <img src="/src/logo2.webp" alt="KalaiAttam Logo" className="logo" />
+          <img src="/src/logo.png" alt="KalaiAttam Logo" className="logo" />
           <div className="text-container">
             <span className="line1">KalaiAttam</span>
             <span className="line2">நடனம் உங்கள் கலையில், உங்கள் கையில்!</span>
           </div>
         </Link>
-        <div className="menu" onClick={handleMenuClick}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
             <NavLink to="/Dance1">Bharathanatyam</NavLink>
@@ -146,7 +141,7 @@ export const Dance2 = () => {
                   padding: "10%",
                 }}
               >
-                <Therukcard />
+                <TherukCard />
               </div>
             )}
             {value === 1 && (

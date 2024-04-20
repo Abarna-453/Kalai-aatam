@@ -1,15 +1,18 @@
-import React, { useState } from 'react'; // Import useState hook
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './ArticleCard.css';
-const ArticleCard = () => {
-  const [selectedPdf, setSelectedPdf] = useState(null); // Use useState hook
+import styles from './ArticleCard.module.css'; // Import the module CSS file
+import PdfViewer from "./../../PdfViewer";
+
+const KaragaCard = () => {
+  const [selectedPdf, setSelectedPdf] = useState(null);
 
   const handleCardClick = (pdfUrl) => {
     setSelectedPdf(pdfUrl);
+    console.log("Selected PDF URL:", pdfUrl);
   };
-  
+
   return (
     <div>
       <Carousel slidesToShow={2}>
@@ -18,18 +21,21 @@ const ArticleCard = () => {
             <div className="row">
               <div className="col-md-6">
                 <div
-                  className="card"
+                  className={styles.articleCard}
                   onClick={() => handleCardClick("/public/pdf/pdfbhara2.pdf")}
                 >
                   <img
                     src="/public/images/k4.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Karakaataakalai</h5>
-                    <p className="card-text"> Article 1</p>
-                    <Link to="/pdf-viewerK" className="btn btn-dark-grey">
+                  <div className={styles.articleCardBody}>
+                    <h5 className={styles.articleCardTitle}>Karakaataakalai</h5>
+                    <p className={styles.articleCardText}>Article 1</p>
+                    <Link
+                      to="/pdf-viewerK"
+                      className={styles.articleBtnDarkGrey}
+                    >
                       Read More
                     </Link>
                   </div>
@@ -37,24 +43,20 @@ const ArticleCard = () => {
               </div>
               <div className="col-md-6">
                 <div
-                  className="card"
-                  onClick={() =>
-                    handleCardClick(
-                      "/public/pdf/Basic Theory-Bharatanatyam-1.pdf"
-                    )
-                  }
+                  className={styles.articleCard}
+                  onClick={() => handleCardClick("/public/pdf/Basic Theory-Bharatanatyam-1.pdf")}
                 >
                   <img
                     src="/public/images/k1.webp"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Karakattam</h5>
-                    <p className="card-text">GK Theory</p>
+                  <div className={styles.articleCardBody}>
+                    <h5 className={styles.articleCardTitle}>Karakattam</h5>
+                    <p className={styles.articleCardText}>GK Theory</p>
                     <a
                       href="https://www.gktoday.in/what-is-karakattam/"
-                      className="btn btn-dark-grey"
+                      className={styles.articleBtnDarkGrey}
                     >
                       Read More
                     </a>
@@ -68,18 +70,18 @@ const ArticleCard = () => {
           <div className="cards-wrapper">
             <div className="row">
               <div className="col-md-6">
-                <div className="card">
+                <div className={styles.articleCard}>
                   <img
                     src="/public/images/k2.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Karakattam</h5>
-                    <p className="card-text">Wikipedia</p>
+                  <div className={styles.articleCardBody}>
+                    <h5 className={styles.articleCardTitle}>Karakattam</h5>
+                    <p className={styles.articleCardText}>Wikipedia</p>
                     <a
                       href="https://en.wikipedia.org/wiki/Karakattam"
-                      className="btn btn-dark-grey"
+                      className={styles.articleBtnDarkGrey}
                     >
                       Read More
                     </a>
@@ -88,18 +90,18 @@ const ArticleCard = () => {
               </div>
 
               <div className="col-md-6">
-                <div className="card">
+                <div className={styles.articleCard}>
                   <img
                     src="/public/images/k3.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">About: Karakattam</h5>
-                    <p className="card-text">dbpedia</p>
+                  <div className={styles.articleCardBody}>
+                    <h5 className={styles.articleCardTitle}>About: Karakattam</h5>
+                    <p className={styles.articleCardText}>dbpedia</p>
                     <a
                       href="https://dbpedia.org/page/Karakattam"
-                      className="btn btn-dark-grey"
+                      className={styles.articleBtnDarkGrey}
                     >
                       Read More
                     </a>
@@ -110,11 +112,9 @@ const ArticleCard = () => {
           </div>
         </Carousel.Item>
       </Carousel>
-
-      {/* Render PdfViewer component with selected PDF URL */}
-      {selectedPdf && <PdfViewer pdfUrl={selectedPdf} />}
+      {/* {selectedPdf && <PdfViewer pdfUrl={selectedPdf} />} */}
     </div>
   );
 };
 
-export default ArticleCard;
+export default KaragaCard;

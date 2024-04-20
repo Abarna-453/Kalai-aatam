@@ -10,7 +10,7 @@ import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import './Navbarpages.css'; 
 import { CheckCircle, Aperture, GitHub } from 'react-feather';
 import Footer from './Footer';
-import Kavadicard from './Kavadicard';
+import KavadiCard from './Kavadicard';
 import Oyilvideo from './Oyilvideo';
 import EventList from './EventList';
 
@@ -31,17 +31,12 @@ export const Dance4 = () => {
       {/* Middle Header (Navigation) */}
       <nav className="middle-header">
         <Link to="/" className="title">
-          <img src="/src/logo2.webp" alt="KalaiAttam Logo" className="logo" />
+          <img src="/src/logo.png" alt="KalaiAttam Logo" className="logo" />
           <div className="text-container">
             <span className="line1">KalaiAttam</span>
             <span className="line2">நடனம் உங்கள் கலையில், உங்கள் கையில்!</span>
           </div>
         </Link>
-        <div className="menu" onClick={handleMenuClick}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
             <NavLink to="/Dance1">Bharathanatyam</NavLink>
@@ -146,7 +141,7 @@ export const Dance4 = () => {
                   padding: "10%",
                 }}
               >
-                <Kavadicard />
+                <KavadiCard />
               </div>
             )}
             {value === 1 && (

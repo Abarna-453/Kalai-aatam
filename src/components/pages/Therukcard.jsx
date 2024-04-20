@@ -2,8 +2,8 @@ import React, { useState } from 'react'; // Import useState hook
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './ArticleCard.css';
-const ArticleCard = () => {
+import styles from './ArticleCard.module.css';
+const TherukCard = () => {
   const [selectedPdf, setSelectedPdf] = useState(null); // Use useState hook
 
   const handleCardClick = (pdfUrl) => {
@@ -18,18 +18,18 @@ const ArticleCard = () => {
             <div className="row">
               <div className="col-md-6">
                 <div
-                  className="card"
+                   className={styles.articleCard}
                   onClick={() => handleCardClick("/public/pdf/pdfbhara2.pdf")}
                 >
                   <img
                     src="/public/images/t3.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Therukoothu</h5>
-                    <p className="card-text"> Map Academy</p>
-                    <Link to="/pdf-viewerT" className="btn btn-dark-grey">
+                  <div className={styles.articleCardBody}>
+                    <h5 className={styles.articleCardTitle}>Therukoothu</h5>
+                    <p className={styles.articleCardText}> Map Academy</p>
+                    <Link to="/pdf-viewerT" className={styles.articleBtnDarkGrey}>
                       Read More
                     </Link>
                   </div>
@@ -37,7 +37,7 @@ const ArticleCard = () => {
               </div>
               <div className="col-md-6">
                 <div
-                  className="card"
+                  className={styles.articleCard}
                   onClick={() =>
                     handleCardClick(
                       "/public/pdf/Basic Theory-Bharatanatyam-1.pdf"
@@ -46,15 +46,15 @@ const ArticleCard = () => {
                 >
                   <img
                     src="/public/images/t6.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Therukoothu potraits</h5>
-                    <p className="card-text">FStoppers</p>
+                  <div className={styles.articleCardBody}>
+                    <h5  className={styles.articleCardTitle}>Therukoothu potraits</h5>
+                    <p  className={styles.articleCardText}>FStoppers</p>
                     <a
                       href="https://shorturl.at/HIJU3"
-                      className="btn btn-dark-grey"
+                      className={styles.articleBtnDarkGrey}
                     >
                       Read More
                     </a>
@@ -68,19 +68,19 @@ const ArticleCard = () => {
           <div className="cards-wrapper">
             <div className="row">
               <div className="col-md-6">
-                <div className="card">
+                <div  className={styles.articleCard}>
                   <img
                     src="/public/images/t5.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Therukoothu - Artform</h5>
-                    <p className="card-text">South Tourism</p>
+                  <div className={styles.articleCardBody}>
+                    <h5  className={styles.articleCardTitle}>Therukoothu - Artform</h5>
+                    <p  className={styles.articleCardText}>South Tourism</p>
                     <a
                       href="https://www.southtourism.in/tamilnadu/artforms/therukoothu.php"
-                      className="btn btn-dark-grey"
-                    >
+                      className={styles.articleBtnDarkGrey}
+>
                       Read More
                     </a>
                   </div>
@@ -88,18 +88,18 @@ const ArticleCard = () => {
               </div>
 
               <div className="col-md-6">
-                <div className="card">
+                <div className={styles.articleCard}>
                   <img
                     src="/public/images/t4.jpeg"
-                    className="card-img-top"
+                    className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">Koothu</h5>
-                    <p className="card-text"> Wikipedia</p>
+                  <div className={styles.articleCardBody}>
+                    <h5 className={styles.articleCardTitle}>Koothu</h5>
+                    <p  className={styles.articleCardText}> Wikipedia</p>
                     <a
                       href="https://en.wikipedia.org/wiki/Koothu"
-                      className="btn btn-dark-grey"
+                      className={styles.articleBtnDarkGrey}
                     >
                       Read More
                     </a>
@@ -117,4 +117,4 @@ const ArticleCard = () => {
   );
 };
 
-export default ArticleCard;
+export default TherukCard;

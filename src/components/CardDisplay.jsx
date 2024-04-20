@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./CardDisplay.css";
+import styles from "./CardDisplay.module.css"; // Import local styles
 
 import {
   MDBCard,
@@ -14,7 +14,6 @@ import {
 const CardDisplay = ({ isFirstTime }) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
-  // Define different sets of cards
   const firstSetOfCards = [
     {
       header: "News Highlight 1",
@@ -64,18 +63,17 @@ const CardDisplay = ({ isFirstTime }) => {
 
   const handleGoSomewhere = () => {
     const currentCard = featuredCards[currentCardIndex];
-    window.location.href = currentCard.link; // Redirect to the specified link
+    window.location.href = currentCard.link;
   };
 
-  // Determine which set of cards to use based on the prop
   const featuredCards = isFirstTime ? firstSetOfCards : secondSetOfCards;
 
   return (
-    <div className="card-container">
-      <MDBCard className="card" alignment="center">
-        <MDBCardHeader className="card-header">
+    <div className={styles.cardContainer}>
+      <MDBCard className={styles.card} alignment="center">
+        <MDBCardHeader className={styles.cardHeader}>
           {featuredCards[currentCardIndex].header}
-          <div className="card-arrows">
+          <div className={styles.cardArrows}>
             <MDBBtn onClick={goToPrevCard} disabled={currentCardIndex === 0}>
               <i className="bi bi-arrow-left"></i>
             </MDBBtn>
@@ -88,9 +86,9 @@ const CardDisplay = ({ isFirstTime }) => {
           </div>
         </MDBCardHeader>
         <MDBCardBody>
-          <MDBCardTitle>{featuredCards[currentCardIndex].title}</MDBCardTitle>
-          <MDBCardText>{featuredCards[currentCardIndex].text}</MDBCardText>
-          <MDBBtn onClick={handleGoSomewhere} className="card-footer-btn">
+          <MDBCardTitle className={styles.cardTitle}>{featuredCards[currentCardIndex].title}</MDBCardTitle>
+          <MDBCardText className={styles.cardText}>{featuredCards[currentCardIndex].text}</MDBCardText>
+          <MDBBtn onClick={handleGoSomewhere} className={styles.cardFooterBtn}>
             Visit
           </MDBBtn>
         </MDBCardBody>

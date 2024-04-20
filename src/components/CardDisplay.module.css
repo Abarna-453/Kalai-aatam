@@ -1,0 +1,104 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  flex: gap 50px;
+  width: 500px;
+  height: auto;
+  margin-right: 40px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 3px solid white;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.cardTitle,
+.cardText {
+  color: white;
+  border-color: white;
+}
+
+
+.card:hover {
+  background-color: rgba(245, 245, 245, 0.8);
+  border: 3px solid #ff00ff;
+}
+
+.card:hover .cardTitle,
+.card:hover .cardHeader,
+.card:hover .cardText {
+  color: black;
+  border-color: #ff00ff;
+}
+
+.cardHeader {
+  position: relative;
+  color: white;
+  border-color: white;
+}
+
+.cardArrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.cardArrows > button {
+  background-color: #ffffff;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.cardArrows > button:disabled {
+  opacity: 0.5;
+}
+
+.cardFooterBtn {
+  background-color: #252422;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cardFooter {
+  background-color: #252422 !important;
+  color: white !important;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardTitle,
+.cardText {
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
