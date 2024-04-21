@@ -439,7 +439,7 @@ export const Dance1 = () => {
             {value === 3 && (
               <div style={{ textAlign: "center", padding: "5%" }}>
                 <EventList />
-                <EventList />
+               
               </div>
             )}
           </table>
