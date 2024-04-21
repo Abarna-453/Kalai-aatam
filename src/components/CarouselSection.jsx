@@ -17,6 +17,11 @@ const CarouselSection = () => {
         <img src="/carousel_images/img4.jpg" alt="Slide 6"/>
         <img src="/carousel_images/img5.jpg" alt="Slide 7"/>
         <img src="/carousel_images/img7.jpeg" alt="Slide 8"/>
+        <img src="/public/images/b3.webp" alt="Slide 9"/>
+        <img src="/public/images/t1.webp" alt="Slide 10"/>
+        <img src="/public/images/therub.webp" alt="Slide 11"/>
+        <img src="/public/images/theru2.jpg" alt="Slide 12"/>
+        <img src="/public/images/b2.jpeg" alt="Slide 13"/>
 
         {/* Add more images as needed */}
       </div>

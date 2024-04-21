@@ -3,34 +3,49 @@ import "./EventList.css"
 
 const EventList = () => {
   return (
-    
     <div className="container">
-  <div className="row">
-    <div className="col-xs-12 col-sm-offset-2 col-sm-8">
-      <ul className="event-list">
-        <li>
-          <div className="event-ticket">
-            <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
-            <div className="event-details">
-                  <h2 className="event-title">EKADASA VISHNUM <br />A Celebration of the 11 Tirunangur Divya Desams </h2>
-                  <time className="event-time" dateTime="2024-07-04">June 29, 2024 <br /> Narada Gana Sabha Hall, Chennai.  <br /> Time: 06:00 pm
-        </time>
+      <div className="row">
+        <div className="col-xs-12 col-sm-offset-2 col-sm-8">
+          <ul className="event-list">
+         
+            <li>
+            <div className="event-12345">
+                <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
+                <div className="event-details">
+                  <h2 className="event-title">Namma Ooru Thiruvizha-Oyilattam<br /> Street performance</h2>
+                  <time className="event-time" dateTime="2024-07-04">january 14 - 15 2023  <br /> Sangamam chennai <br /></time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
                   
                   <div className="event-social">
-                   
+                    
                   </div>
                 </div>
               </div>
             </li>
-            {}
-            <li>
-              <div className="event-12345">
+   {/* Add more event items here */}
+   <li>
+                <div className="event-12345">
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
-                  <h2 className="event-title">Trial courses<br />solos by two child artistes - Akshatha Viswanath and Angeleena Avnee </h2>
-                  <time className="event-time" dateTime="2024-07-04">April 21, 2024<br /> Medai, Koramangala,Banglore. <br /> Time: 11am
+                  <h2 className="event-title">Oyilattam Coimbatore Village event<br /></h2>
+                  <time className="event-time" dateTime="2024-07-04">july 15 2019 <br />Santhosh Nagar,Kaniyur,Coimbatore<br /> </time>
+                  
+                  <p className="event-desc"> TN Government - Tamil Dance Day </p>
+                  
+                  <div className="event-social">
+                    
+                  </div>
+                </div>
+              </div>
+            </li>
+             
+          <li>
+          <div className="event-12345">
+                <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
+                <div className="event-details">
+                  <h2 className="event-title">Shilpgram Festival 2010 <br />Oyilattam folk dance of Tamilnadu in cultural festival </h2>
+                  <time className="event-time" dateTime="2024-07-04">2010<br/>Shilpgram,Udaipur.<br /> Time: 07:00 pm
         </time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
@@ -41,31 +56,14 @@ const EventList = () => {
                 </div>
               </div>
             </li>
+            {}
             <li>
               <div className="event-12345">
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
-                  <h2 className="event-title">Indian Dance Festival Mamallapuram</h2>
-                  <time className="event-time" dateTime="2024-07-04">Janurary 21, 2024 <br /> Saraswathy Kalanikethan, Chennai</time>
-                  
-                  <p className="event-desc"> TN Government - Tamil Dance Day </p>
-                  
-                  <div className="event-social">
-                   
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            {/* Add more event items here */}
-            <li>
-              <div className="event-12345">
-                <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
-                <div className="event-details">
-                  <h2 className="event-title">Indian Dance Festival Mamallapuram</h2>
-                  <time className="event-time" dateTime="2024-07-04">Janurary 18, 2024 <br /> S.K. Natya Kalaniketan Academy,
-Chennai
-</time>
+                  <h2 className="event-title">Tamil pongal Festival honouring-Oyilattam <br />Oyilattam during Pongal celebrations at St. Mary's College.</h2>
+                  <time className="event-time" dateTime="2024-07-04"> January 12, 2015<br/>St. Mary's College in Tuticorin<br /> Time: 07:00 pm
+        </time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
                   
@@ -76,9 +74,6 @@ Chennai
               </div>
             </li>
             {}
-           
-            
-            
           </ul>
         </div>
       </div>

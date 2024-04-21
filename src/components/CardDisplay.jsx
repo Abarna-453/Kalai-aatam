@@ -36,13 +36,20 @@ const CardDisplay = ({ isFirstTime }) => {
   const secondSetOfCards = [
     {
       header: "Event Highlight 1",
+      title: "EKADASA VISHNUM",
+      text: "A Celebration of the 11 Tirunangur Divya Desams at Narada Gana Sabha Hall, Chennai.June 29, 2024 .",
+      footer: "June 29, 2024",
+      link: "https://www.mdnd.in/newevent/viewevent/ODU5OCMzNSMxMDEjMg==",
+    },
+    {
+      header: "Event Highlight 2",
       title: "சங்கமம்-நம்ம-ஊரு-திருவிழா 2023-24",
       text: "சென்னை நம்ம ஊரு சங்கமம்-நம்ம-ஊரு-திருவிழா நிகழ்ச்சி தொகுப்பு (Day2-5)Linkbelow",
       footer: "3 days ago",
       link: "https://artandculture.tn.gov.in/event/%E0%AE%9A%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AE%AE%E0%AF%8D-%E0%AE%A8%E0%AE%AE%E0%AF%8D%E0%AE%AE-%E0%AE%8A%E0%AE%B0%E0%AF%81-%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AE%BE-2023-24",
     },
     {
-      header: "Event Highlight 2",
+      header: "Event Highlight 3",
       title: "Tamil Nadu Day Celebration at Tn Illam Newdelhi",
       text: "Tamil Nadu Day Celebration at Tn illam Newdelhi Around 35 Artist head by Hemanathan, Regional Assist Director Salem",
       footer: "3 days ago",

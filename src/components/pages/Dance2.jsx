@@ -10,7 +10,7 @@ import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import "./Navbarpages.css";
 import { CheckCircle, Aperture, GitHub } from "react-feather";
 import TherukCard from "./Therukcard";
-import EventList from "./EventList";
+import Theruevent from "./Theruevent";
 import Theruvideo from "./Theruvideo";
 import Footer from "./Footer";
 
@@ -417,8 +417,8 @@ export const Dance2 = () => {
 
             {value === 3 && (
               <div style={{ textAlign: "center", padding: "5%" }}>
-                <EventList />
-                <EventList />
+                <Theruevent />
+                
               </div>
             )}
           </table>

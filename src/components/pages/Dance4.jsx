@@ -12,7 +12,7 @@ import { CheckCircle, Aperture, GitHub } from 'react-feather';
 import Footer from './Footer';
 import KavadiCard from './Kavadicard';
 import Oyilvideo from './Oyilvideo';
-import EventList from './EventList';
+import Oyilevent from './Oyilevent';
 
 export const Dance4 = () => {
   const [value, setValue] = useState(0);
@@ -416,8 +416,8 @@ export const Dance4 = () => {
 
             {value === 3 && (
               <div style={{ textAlign: "center", padding: "5%" }}>
-                <EventList />
-                <EventList />
+                <Oyilevent />
+               
               </div>
             )}
           </table>

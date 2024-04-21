@@ -12,7 +12,7 @@ import { CheckCircle, Aperture, GitHub } from 'react-feather';
 import Footer from './Footer';
 import KaragaCard from './Karagacard';
 import Karagavideo from './Karagavideo';
-import EventList from './EventList';
+import Karaevent from './Karaevent';
 
 export const Dance3 = () => {
   const [value, setValue] = useState(0);
@@ -419,8 +419,8 @@ export const Dance3 = () => {
 
             {value === 3 && (
               <div style={{ textAlign: "center", padding: "5%" }}>
-                <EventList />
-                <EventList />
+                <Karaevent />
+                
               </div>
             )}
           </table>

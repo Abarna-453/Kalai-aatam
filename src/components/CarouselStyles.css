@@ -35,7 +35,7 @@
   .carousel-slide {
     display: inline-block;
     width: 100%;
-    animation: 35s slide infinite linear;/* Adjust animation duration as needed */
+    animation: 50s slide infinite linear;/* Adjust animation duration as needed */
   }
   
   .carousel-slide img {
