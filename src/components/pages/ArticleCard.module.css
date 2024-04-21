@@ -20,6 +20,8 @@ height:400px;
 
 .articleCardImgTop {
   width: 100%;
+   height: 160.5px; /* Set the height to 163.5px */
+  object-fit: cover; 
 }
 
 .articleCardTitle {

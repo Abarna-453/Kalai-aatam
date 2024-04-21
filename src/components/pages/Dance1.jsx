@@ -124,7 +124,6 @@ export const Dance1 = () => {
                 width: "100%",
                 backgroundColor: "#404040",
                 color: "#fff",
-                marginBottom: "20px",
               }}
             >
               <Tab

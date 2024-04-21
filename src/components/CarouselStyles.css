@@ -7,6 +7,7 @@
     background: none;
     white-space: nowrap;
     position: relative;
+    
   }
   
   .carousel:before,
@@ -18,6 +19,7 @@
     height: 100%;
     content: "";
     z-index: 2;
+    
   }
   
   .carousel:before {
@@ -56,6 +58,18 @@
     font-size: 24px;
     cursor: pointer;
 }
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-control-prev{
+  justify-content: flex-start;
+}
+
+.carousel-control-next{
+  justify-content: flex-end;
+}
+
   @keyframes slide {
     from {
       transform: translateX(0);

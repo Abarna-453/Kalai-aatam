@@ -47,7 +47,7 @@ const ArticleCard = () => {
                   onClick={() => handleCardClick("/public/pdf/Basic Theory-Bharatanatyam-1.pdf")}
                 >
                   <img
-                    src="/public/images/b2.jpeg"
+                    src="/public/images/b4.webp"
                     className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
@@ -72,12 +72,12 @@ const ArticleCard = () => {
               <div className="col-md-6">
                 <div className={styles.articleCard}>
                   <img
-                    src="/public/images/b3.webp"
+                    src="/public/images/b2.jpeg"
                     className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
                   <div className={styles.articleCardBody}>
-                    <h5 className={styles.articleCardTitle}>Bharatanatyam Overview</h5>
+                    <h5 className={styles.articleCardTitle}>Bharatanatyam Intro</h5>
                     <p className={styles.articleCardText}>ipassio</p>
                     <a
                       href="https://www.ipassio.com/wiki/dance/indian-classical-dance/bharatanatyam"
@@ -92,7 +92,7 @@ const ArticleCard = () => {
               <div className="col-md-6">
                 <div className={styles.articleCard}>
                   <img
-                    src="/public/images/b4.webp"
+                    src="/public/images/b3.webp"
                     className={styles.articleCardImgTop}
                     alt="Not Found"
                   />
