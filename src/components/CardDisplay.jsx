@@ -18,10 +18,10 @@ const CardDisplay = ({ isFirstTime }) => {
     {
       header: "News Highlight 1",
       title:
-        "Apply for the post of Folk Art Instructors and Supervisors for Part Time Folk Art Training Center",
-      text: "Press Release 18.12.2023",
-      footer: "2 days ago",
-      link: "https://artandculture.tn.gov.in/apply-post-folk-art-instructors-and-supervisors-part-time-folk-art%C2%A0training%C2%A0center-0",
+        "Bharatanatyam exponent’s passion to nurture next generation dancers",
+      text: "Press Release 07.04.2024",
+      footer: "2 weeks ago",
+      link: "https://www.msn.com/en-in/news/india/bharatanatyam-exponent-s-passion-to-nurture-next-generation-dancers/ar-BB1lcmiB",
     },
     {
       header: "News Highlight 2",
