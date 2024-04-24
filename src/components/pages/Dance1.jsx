@@ -66,40 +66,22 @@ export const Dance1 = () => {
         }}
       >
         {/* Image on the left side */}
-        <div style={{ width: "50%", textAlign: "center", padding: "5%" }}>
+        <div
+          style={{ width: "50%", textAlign: "center", padding: "5%" }}
+          className="image-container"
+        >
           {/* Your image component goes here */}
           <img
-            src="public/videos/oyil.gif"
+            src="/public/videos/backgb.jpeg"
             alt="Your Image"
+            className="animated-image"
             style={{
-              width: "55%",
+              width: "85%",
               height: "80%",
               maxWidth: "800px",
               maxHeight: "800px",
             }}
           />
-
-          {/* <div className="video-container">
-      <video autoPlay loop muted playsInline>
-        <source src={videoSrc} type="video/mp4" />
-        Your browser does not support the video tag.
-              </video>
-            </div>
-        .video-container {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100vw;
-          height: 100vh;
-          overflow: hidden;
-          z-index: -1; 
-        }
-
-        video {
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-        } */}
         </div>
 
         {/* Content for the tabs on the right side */}

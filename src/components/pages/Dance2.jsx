@@ -66,13 +66,17 @@ export const Dance2 = () => {
         }}
       >
         {/* Image on the left side */}
-        <div style={{ width: "50%", textAlign: "center", padding: "5%" }}>
+        <div
+          style={{ width: "50%", textAlign: "center", padding: "5%" }}
+          className="image-container"
+        >
           {/* Your image component goes here */}
           <img
-            src="/public/images/theru2.jpg"
+            src="/public/videos/Therukkuthu.jpg"
             alt="Your Image"
+            className="animated-image"
             style={{
-              width: "55%",
+              width: "85%",
               height: "80%",
               maxWidth: "800px",
               maxHeight: "800px",
