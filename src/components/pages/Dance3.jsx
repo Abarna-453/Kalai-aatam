@@ -152,7 +152,7 @@ export const Dance3 = () => {
                 style={{
                   textAlign: "center",
                   padding: "10%",
-                  maxHeight: "400px",
+                  maxHeight: "600px",
                   overflow: "auto",
                   paddingTop: "3%",
                 }}
