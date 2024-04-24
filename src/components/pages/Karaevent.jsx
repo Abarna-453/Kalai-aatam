@@ -29,7 +29,7 @@ const EventList = () => {
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
                   <h2 className="event-title">Group KaragaAttam Dance<br /> karaattam performance</h2>
-                  <time className="event-time" dateTime="2024-07-04">September 29, 2011 <br /> Women Guard Special Force, Ulundur Pettah, Tamil Nadu<br /></time>
+                  <time className="event-time" dateTime="2024-07-04">September 29, 2021 <br /> Women Guard Special Force, Ulundur Pettah, Tamil Nadu<br /></time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
                   
@@ -60,7 +60,7 @@ const EventList = () => {
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
                   <h2 className="event-title">CRPF-Karagam<br />CRPF to present ‘Karagam’ dance for first time during R-Day function in Jammu</h2>
-                  <time className="event-time" dateTime="2024-07-04">january 24 2016 <br /> Jammu,India.<br /> </time>
+                  <time className="event-time" dateTime="2024-07-04">january 24 2022 <br /> Jammu,India.<br /> </time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
                   

@@ -418,9 +418,15 @@ export const Dance3 = () => {
             )}
 
             {value === 3 && (
-              <div style={{ textAlign: "center", padding: "5%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "5%",
+                  maxHeight: "600px",
+                  overflow: "auto",
+                }}
+              >
                 <Karaevent />
-                
               </div>
             )}
           </table>

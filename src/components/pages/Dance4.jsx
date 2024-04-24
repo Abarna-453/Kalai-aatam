@@ -415,9 +415,15 @@ export const Dance4 = () => {
             )}
 
             {value === 3 && (
-              <div style={{ textAlign: "center", padding: "5%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "5%",
+                  maxHeight: "600px",
+                  overflow: "auto",
+                }}
+              >
                 <Oyilevent />
-               
               </div>
             )}
           </table>

@@ -437,9 +437,15 @@ export const Dance1 = () => {
             )}
 
             {value === 3 && (
-              <div style={{ textAlign: "center", padding: "5%" }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "5%",
+                  maxHeight: "600px",
+                  overflow: "auto",
+                }}
+              >
                 <EventList />
-               
               </div>
             )}
           </table>

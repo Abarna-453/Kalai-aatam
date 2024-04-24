@@ -29,7 +29,7 @@ const EventList = () => {
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
                   <h2 className="event-title">Oyilattam Coimbatore Village event<br /></h2>
-                  <time className="event-time" dateTime="2024-07-04">july 15 2019 <br />Santhosh Nagar,Kaniyur,Coimbatore<br /> </time>
+                  <time className="event-time" dateTime="2024-07-04">july 15 2022 <br />Santhosh Nagar,Kaniyur,Coimbatore<br /> </time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
                   
@@ -44,8 +44,8 @@ const EventList = () => {
           <div className="event-12345">
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
-                  <h2 className="event-title">Shilpgram Festival 2010 <br />Oyilattam folk dance of Tamilnadu in cultural festival </h2>
-                  <time className="event-time" dateTime="2024-07-04">2010<br/>Shilpgram,Udaipur.<br /> Time: 07:00 pm
+                  <h2 className="event-title">Shilpgram Festival  <br />Oyilattam folk dance of Tamilnadu in cultural festival </h2>
+                  <time className="event-time" dateTime="2024-07-04">August 17, 2022<br/>Shilpgram,Udaipur.<br /> Time: 07:00 pm
         </time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
@@ -62,7 +62,7 @@ const EventList = () => {
                 <img src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" alt="Independence Day" className="event-image" />
                 <div className="event-details">
                   <h2 className="event-title">Tamil pongal Festival honouring-Oyilattam <br />Oyilattam during Pongal celebrations at St. Mary's College.</h2>
-                  <time className="event-time" dateTime="2024-07-04"> January 12, 2015<br/>St. Mary's College in Tuticorin<br /> Time: 07:00 pm
+                  <time className="event-time" dateTime="2024-07-04"> January 12, 2020<br/>St. Mary's College in Tuticorin<br /> Time: 07:00 pm
         </time>
                   
                   <p className="event-desc"> TN Government - Tamil Dance Day </p>
